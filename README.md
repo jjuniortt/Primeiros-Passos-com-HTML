@@ -3,13 +3,15 @@
 - OBJETIVO: Resumo de aula e upgrade de informações<br/>
 - PLATAFORMA DE ENSINO: dio.me
 
-O objetivo deste repositório é mostrar um breve resumo dos primeiros passos em HTML, destacando a estrutura principal de uma página em HTML.
+Apresento, neste repositório e como produto do Módulo 1: Primeiros Passos com HTML, uma página Web, montada apenas com HyperText Markup Language (HTML).
 
 <div align="left">
 <img src="https://user-images.githubusercontent.com/25811685/189496644-aaa56a53-b07f-4256-b0a9-c6645b86a458.png" width="400px" />
 </div>
 </br>
 
-Para a conclusão do módulo, criamos uma aplicação a partir das duas tecnologias que fazem parte da base de qualquer aplicação web - HTML.
+Veja abaixo as habilidades necessárias para montar essa aplicação e disponibilizar no GitHub: </br>
 
-Veja abaixo as habilidades necessárias para montar essa aplicação e disponibilizar no GitHub:
+[![My Skills](https://skillicons.dev/icons?i=html,git)](https://skillicons.dev)
+
+## Vamos codar! 🚀
