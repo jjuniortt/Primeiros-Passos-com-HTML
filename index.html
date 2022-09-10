@@ -1,0 +1,142 @@
+<!--
+
+- PROJETO: Módulo 1 - Primeiros Passos com HTML
+- OBJETIVO: Resumo de aula e upgrade de informações
+- PLATAFORMA DE ENSINO: dio.me
+- ALUNO-DESENVOLVEDOR: Jonas José Tófoli Júnior
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#historia-dos-computadores">História dos computadores</a></li>
+        <li><a href="#o-que-sao-clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#o-que-sao-servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#como-e-uma-estrutura-basica-de-um-html">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#entendendo-a-diferença-entre-listas-ordenadas-e-nao-ordenadas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#links-de-referencias">Links de referências</a></li>
+    </ul>
+
+    <h2 id="historia-dos-computadores"> História dos Computadores</h2>
+    <small> <a href="#inicio">(Voltar)</a></small>
+
+    <p>A primeira máquina chamada de computador foi construída por <strong> Wilhelm Schickard (Herrenberg, 22 de abril de 1592 — Tübingen, 24 de outubro de 1635)</strong>, polímata alemão, foi professor de hebraico e Astronomia na Universidade de Tübingen, onde estudou até 1613 e cursou Teologia e Línguas Orientais. Ela era capaz de somar, subtrair, multiplicar e dividir. Com o passar do tempo, essa máquina foi perdida durante a guerra dos trinta anos e só depois foi encontrada alguma documentação sobre sua origem e funcionamento. Neste meio tempo, atribuindo referência a Blaise Pascal (1623-1662) a construção da primeira máquina calculadora, que fazia apenas somas e subtrações.</p>
+
+    <p>Todas essas máquinas, porém, estavam longe de ser um computador de uso geral, pois não eram programáveis. Isto quer dizer que a entrada era feita apenas de números, mas não de instruções a respeito do que fazer com os números.</p>
+
+    <ul>
+        <li>Babbage;</li>
+        <li>A máquina de tabular.</li>
+    </ul>
+
+    <h3>Os primeiros computadores de uso geral</h3>
+    <p>O primeiro computador eletromecânico foi construído por Konrad Zuse (1910–1995). Em 1936, esse engenheiro alemão construiu, a partir de relês que executavam os cálculos e dados lidos em fitas perfuradas, o Z1. Zuse tentou vender o computador ao governo alemão, que desprezou a oferta, já que não poderia auxiliar no esforço de guerra. Os projetos de Zuse ficariam parados durante a guerra, dando a chance aos americanos de desenvolver seus computadores.</p>
+
+    <p>Foi na Segunda Guerra Mundial que realmente nasceram os computadores atuais. A Marinha dos Estados Unidos, em conjunto com a Universidade de Harvard, desenvolveu o computador Harvard Mark I, projetado pelo professor Howard Aiken, com base no calculador analítico de Babbage. O Mark I ocupava 120 m³ aproximadamente, conseguindo multiplicar dois números de dez dígitos em três segundos.</p>
+
+    <p>Simultaneamente, e em segredo, o Exército dos Estados Unidos desenvolvia um projeto semelhante, chefiado pelos engenheiros J. Presper Eckert e John Mauchly, cujo resultado foi o primeiro computador a válvulas, o Eletronic Numeric Integrator And Calculator (ENIAC),[4] capaz de fazer quinhentas multiplicações por segundo. Tendo sido projetado para calcular trajetórias balísticas, o ENIAC foi mantido em segredo pelo governo americano até o final da guerra, quando foi anunciado ao mundo.</p>
+
+    <p>ENIAC, computador desenvolvido pelo Exército dos Estados Unidos.
+    No ENIAC, o programa era feito rearranjando a fiação em um painel. Nesse ponto John von Neumann propôs a ideia que transformou os calculadores eletrônicos em “cérebros eletrônicos”: modelar a arquitetura do computador segundo o sistema nervoso central. Para isso, eles teriam que ter três características:</p>
+
+    <h2 id="o-que-sao-clients">O que são <i>Clients</i>?</h2>
+    <small> <a href="#inicio">(Voltar)</a></small>
+    
+    <p>A característica do modelo cliente-servidor, descreve a relação de programas numa aplicação. O componente de servidor fornece uma função ou serviço a um ou mais clientes, que iniciam os pedidos de serviço.</p>
+
+    Funcionalidades como a troca de e-mail, acesso à internet ou acesso a um banco de dados, são construídos com base no modelo cliente-servidor. Por exemplo, um navegador web é um programa cliente, em execução no computador do usuário, que acede às informações armazenadas num servidor web na internet. Usuários de serviços bancários, acedendo do seu computador, usam um cliente web para enviar uma solicitação para um servidor web num banco. Esse programa pode, por sua vez, encaminhar o pedido para o seu próprio programa de banco de dados do cliente que envia uma solicitação para um servidor de banco de dados noutro computador do banco para recuperar as informações da conta. O saldo é devolvido ao cliente de banco de dados do banco, que por sua vez, serve de volta ao cliente navegador exibindo os resultados para o usuário.</p>
+
+    O modelo cliente-servidor, tornou-se uma das ideias centrais de computação de rede. Muitos aplicativos de negócios, escritos hoje, utilizam o modelo cliente-servidor. O termo também tem sido utilizado para distinguir a computação distribuída por computadores dispersos da "computação" monolítica centralizada em mainframe.</p>
+
+    Cada instância de software do cliente pode enviar requisições a vários servidores. Por sua vez, os servidores podem aceitar esses pedidos, processá-los e retornar as informações solicitadas para o cliente. Embora este conceito possa ser aplicado por uma variedade de razões e para diversos tipos de aplicações, a arquitetura permanece fundamentalmente a mesma.</p>
+
+    <h3>Característica do client</h3>
+
+    <ul>
+        <li>Inicia pedidos para servidores;</li>
+        <li>Espera por respostas;</li>
+        <li>Recebe respostas;</li>
+        <li>Conecta-se a um pequeno número de servidores de uma só vez;</li>
+        <li>Utiliza recursos da rede;</li>
+        <li>Normalmente interage diretamente com os servidores através de seu software aplicação especifico, que lhe possibilita a comunicação com o servidor.</li>
+    </ul>
+
+    <h2 id="o-que-sao-servers">O que são <i>Servers</i>?</h2>
+    <small> <a href="#inicio">(Voltar)</a></small>
+
+    <p>Servidor é o computador no qual foi configurado em uma rede para oferecer algum tipo de serviço. O servidor pode ser executado em mais de um equipamento e ser mais de um programa. De acordo com os serviços que presta, pode ser chamado de servidor web, servidor de correio ou outro.</p>
+
+    <h3>Característica do server</h3>
+
+    <ul>
+        <li>Sempre espera por um pedido de um cliente;</li>
+        <li>Atende os pedidos e, em seguida, responde aos clientes com os dados solicitados;</li>
+        <li>Podem se conectar com outros servidores para atender uma solicitação específica do cliente; jamais podem se comunicar;</li>
+        <li>Fornece recursos de rede;</li>
+        <li>Normalmente interage diretamente com os usuários finais através de qualquer interface com o usuário;</li>
+        <li>Estrutura o sistema.</li>
+    </ul>
+
+    <h2 id="como-e-uma-estrutura-basica-de-um-html">Como é uma estrutura básica de um HTML?</h2>
+    <small> <a href="#inicio">(Voltar)</a></small>
+
+    <p>Em seu código HTML, você pode marcar seções de conteúdo com base em sua funcionalidade. Você pode usar elementos que representam as seções de conteúdo descritas acima sem ambigüidade, e tecnologias assistivas, como leitores de tela, podem reconhecer esses elementos e ajudar com tarefas como "localizar a navegação principal". "ou" encontre o conteúdo principal. " Como mencionamos anteriormente no curso, há um número de consequências de não usar a estrutura de elemento e semâtica certas para o trabalho certo.</p>
+
+    <p>Para implementar essa marcação semântica, o HTML fornece tags dedicadas que você pode usar para representar essas seções, por exemplo:</p>
+
+    <ul>
+        <li>Cabeçalho: "header";</li>
+        <li>Conteúdo principal: "main", com várias subseções de conteúdo representadas por "article", "section", e elementos "div";</li>
+        <li>Rodapé: "footer".</li>
+    </ul>
+
+    <h2 id="entendendo-a-diferença-entre-listas-ordenadas-e-nao-ordenadas">Entendendo a diferença entre listas <i>ordenadas</i> e <i>não ordenadas</i></h2>
+    <small> <a href="#inicio">(Voltar)</a></small>
+
+    <p><strong><u>Lista ordenada:</u></strong> Uma lista ordenada define uma lista de itens em que a ordem dos itens é importante. Uma lista ordenada também é chamada de lista de números. A ordem é dada por um esquema de numeração, usando números arábicos, letras, algarismos romanos. Ou em outras palavras, a tag de lista ordenada é usada para criar uma lista ordenada.</p>
+
+    <ol>
+        <li>História dos computadores</li>
+        <li>Clients</li>
+        <li>O que são Servers</li>
+        <li>Como é uma estrutura básica de um HTML?</li>
+        <li>Entendendo a diferença entre listas ordenadas e não ordenadas</li>
+        <li>Links de referências</li>
+    </ol>
+
+    <p><strong><u>Lista não ordenada:</u></strong> Uma lista não ordenada define uma lista de itens em que a ordem dos itens não define. Ou em outras palavras, a tag de lista não ordenada é usada para criar uma lista não ordenada. Também é conhecido como lista com marcadores. Na lista não ordenada, cada elemento da lista é definido usando a tag "li".</p>
+
+   <ul>
+        <li>História dos computadores</li>
+        <li>Clients</li>
+        <li>O que são Servers</li>
+        <li>Como é uma estrutura básica de um HTML?</li>
+        <li>Entendendo a diferença entre listas ordenadas e não ordenadas</li>
+        <li>Links de referências</li>
+    </ul>
+
+    <h2 id="links-de-referencias">Links de referências</h2>
+    <small> <a href="#inicio">(Voltar)</a></small>
+    
+    <p><strong><u>REFERÊNCIAS:</u> </strong>Links de páginas que falam sobre estes assuntos.</p>
+
+    <!-- Lista não ordenada com link de direcionamento para o site da "mozilla" e "wikipedia". Também inserida a tag para abrir estes sites numa outra aba no navegador. -->
+    <ul>
+        <li><a href="https://developer.mozilla.org/pt-BR/" target="_blank">https://developer.mozilla.org/pt-BR/</a></li>
+        <li><a href="https://pt.wikipedia.org" target="_blank">https://pt.wikipedia.org</a></li>
+    </ul>
+
+</body>
+</html>
