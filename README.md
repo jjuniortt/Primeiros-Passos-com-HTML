@@ -6,7 +6,7 @@
 O objetivo deste repositório é mostrar um breve resumo dos primeiros passos em HTML, destacando a estrutura principal de uma página em HTML.
 
 <div align="left">
-<img src="https://user-images.githubusercontent.com/25811685/178263363-53a73b8d-5ce8-4eb2-978c-9b7a7c169a75.png" width="400px" />
+<img src="https://user-images.githubusercontent.com/25811685/189496644-aaa56a53-b07f-4256-b0a9-c6645b86a458.png" width="400px" />
 </div>
 </br>
 
